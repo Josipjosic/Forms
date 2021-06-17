@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	background-color: #230052;
+}
+#divMainContainer {
+	width: 700px;
+	height: 600px;
+	margin: 150px auto;
+	-webkit-box-shadow: 0px 0px 50px 25px rgba(115,255,235,0.4); 
+	box-shadow: 0px 0px 50px 25px rgba(115,255,235,0.4);
+	border: 1px inset #1C6EA4 0.4;
+	border-radius: 0px 40px 0px 40px;
+	background-color: #007acc;
+}
+.mainName input, .mainEmail input, .mainWebsite input {
+	width: 200px;
+	height: 25px;
+}
+.mainName label, .mainEmail label, .mainWebsite label {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.mainName, .mainEmail, .mainWebsite, .mainMessage {
+	font-size: 25px;
+}
+.titleMain {
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	padding-top: 5px;
+}
+.mainName {
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+.mainEmail {
+	margin-left: 196px;
+	margin-bottom: 10px;
+}
+.mainWebsite {
+	margin-left: 180px;
+	margin-bottom: 20px;
+}
+.mainMessage {
+	margin-left: 175px;
+	margin-bottom: 17px;
+}
+.mainMessage label {
+	padding-right: 5px;
+	vertical-align: top;
+}
+.mainMessage textarea {
+	width: 202px;
+	height: 70px;
+	overflow: auto;
+	resize: none;
+}
+.mainToS {
+	text-align: center;
+	font-size: 13px;
+	margin-left: -83px;
+}
+.mainButtonL input, .mainButtonR input {
+	margin-top: 10px;
+	margin-left: 368px;
+	background-color: #4dd2ff;
+	width: 100px;
+	height: 30px;
+	color: #ffffff;
+	border-radius: 5px;
+	border: solid 1px #4dd2ff;
+}
+.mainFooterP {
+	float: left;
+	font-size: 13px;
+	margin-left: 254px;
+	margin-bottom: 1px;
+
+}
